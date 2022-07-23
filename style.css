@@ -1,15 +1,13 @@
-body {
+body{
     margin: 0;
-    padding-top: 800px;
+    
     text-align: center;
 }
-
 .profile {
     border-radius: 50%;
     width: 175px;
 
 }
-
 #welcome {
     position: absolute;
     height: 100%;
@@ -19,7 +17,6 @@ body {
     width: 100%;
     z-index: 9;
 }
-
 #fh {
     font-size: 35px;
     line-height: 1.2;
@@ -55,7 +52,7 @@ h2 {
     padding: 50px;
     text-align: center;
     font-size: 40px;
-
+    padding-top: 700px;
 }
 
 .line {
@@ -83,33 +80,10 @@ p {
 
 }
 
-.menu {
-    font-family: 'Kanit', sans-serif;
-    position: fixed;
-    top: 0px;
-    margin-top: 0px;
-    z-index: 10;
-    width: 100%;
-    background-color: #00FFAB;
-
-}
-
 a {
     text-decoration: none;
     color: black;
 
-}
-
-.links:hover {
-text-decoration: underline;
-    font-size:25px;}
-
-.links {
-    display: inline;
-    color: black;
-    padding-right: 25px;
-    padding-left: 33px;
-    font-size: 20px;
 }
 
 html {
@@ -135,6 +109,7 @@ a {
 .contact_1 {
     color: blueviolet;
     text-shadow: none;
+    font-size: 17px;
 }
 
 .contact_1 a {
@@ -154,17 +129,16 @@ a {
 .container
 {
     text-align: center;
+    background-color:burlywood;
+    width:100%;
 }
 
-
-#mycarousel{
-    background-color: burlywood;
-}
 #mycarousel img{
     height: 300px;
     margin-top:35px
         
 }
+
 .carousel-inner p{
     margin-bottom: 15px;
     margin-top: 15px;
@@ -172,3 +146,8 @@ a {
     font-family: sans-serif;
     color: black;
 }
+.navbar-inverse{
+    background-color: #00FCAB;
+    font-weight: 300;
+}
+
