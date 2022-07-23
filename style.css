@@ -1,13 +1,15 @@
-body{
+body {
     margin: 0;
-    
+
     text-align: center;
 }
+
 .profile {
     border-radius: 50%;
     width: 175px;
 
 }
+
 #welcome {
     position: absolute;
     height: 100%;
@@ -17,6 +19,7 @@ body{
     width: 100%;
     z-index: 9;
 }
+
 #fh {
     font-size: 35px;
     line-height: 1.2;
@@ -94,12 +97,14 @@ a {
     text-decoration: none;
 }
 
-#achievements{
+#achievements {
     font-size: 20px;
+    color: crimson;
 }
-.ahm  {
-    color: darkorange;
-  font-size: 18px;
+
+.ahm {
+    color: black;
+    font-size: 18px;
 }
 
 #contact {
@@ -126,28 +131,30 @@ a {
 
 }
 
-.container
-{
+.container {
     text-align: center;
-    background-color:burlywood;
-    width:100%;
+    width: 100%;
 }
 
-#mycarousel img{
+#mycarousel img {
     height: 300px;
-    margin-top:35px
-        
+    margin-top: 35px
 }
 
-.carousel-inner p{
+.carousel-inner p {
     margin-bottom: 15px;
     margin-top: 15px;
     font-size: 20px;
     font-family: sans-serif;
     color: black;
 }
-.navbar-inverse{
+
+.navbar-inverse {
     background-color: #00FCAB;
     font-weight: 300;
 }
 
+.ivideo {
+    width: 50%;
+    height: 300px;
+}
